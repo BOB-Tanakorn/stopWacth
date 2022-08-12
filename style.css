@@ -1,0 +1,47 @@
+@font-face {
+    font-family: kanit;
+    src: url(../font/Kanit-Regular.woff);
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: skyblue;
+    font-family: kanit;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 30px auto;
+    color: aliceblue;
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+#second, #tens{
+    font-size: 50px;
+}
+
+button{
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: blue;
+    border: 2px solid rgb(221, 221, 221);
+    cursor: pointer;
+    font-size: 30px;
+    padding: 18px 10px;
+    width: 180px;
+    margin:  10px;
+    outline: none;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: blue;
+    transition: 1s;
+    border: whitesmoke;
+}
